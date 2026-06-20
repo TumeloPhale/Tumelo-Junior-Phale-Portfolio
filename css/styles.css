@@ -28,6 +28,33 @@
   --ease-out: cubic-bezier(0, 0, 0.2, 1);
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f2f2f7;
+    --bg-alt: #e8e8ee;
+    --surface: #ffffff;
+    --surface-hover: #f0f0f5;
+    --border: #d4d4de;
+    --border-hi: #b8b8c8;
+
+    --text: #12122a;
+    --text-dim: #555570;
+    --text-muted: #9999aa;
+
+    --cyan: #0088aa;
+    --cyan-dim: #006a88;
+    --cyan-glow: rgba(0, 136, 170, 0.08);
+    --purple: #7c3aed;
+    --gradient: linear-gradient(135deg, var(--cyan), var(--purple));
+  }
+
+  .hero-badge { border-color: var(--border); }
+  .hero-terminal { border-color: var(--border); }
+  .terminal-head { border-bottom-color: var(--border); }
+  .cluster-chip { background: var(--bg-alt); }
+  .noise { opacity: 0.015; }
+}
+
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 html {
