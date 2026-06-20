@@ -1,465 +1,438 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tumelo Junior Phale &mdash; Software Engineer</title>
-    <meta
-      name="description"
-      content="Junior software engineer. Backend APIs, .NET, SQL, React. Based in Midrand, Johannesburg."
-    />
-    <meta name="theme-color" content="#00b8d9" />
+    <title>Tumelo Junior Phale — Software Engineer &amp; QA</title>
+    <meta name="description" content="Tumelo Junior Phale — backend engineering, frontend development, QA automation. ASP.NET Core, React, SQL Server, Cypress." />
+    <meta name="theme-color" content="#07070d" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Tumelo Junior Phale &mdash; Software Engineer"
-    />
-    <meta
-      property="og:description"
-      content="Backend development, clean systems, production code."
-    />
-    <meta name="twitter:card" content="summary" />
-    <meta
-      name="twitter:title"
-      content="Tumelo Junior Phale &mdash; Software Engineer"
-    />
+    <meta property="og:title" content="Tumelo Junior Phale — Software Engineer &amp; QA" />
+    <meta property="og:description" content="Backend-first engineer with QA discipline. Builds clean APIs, ships quality code, automates the rest." />
+    <meta property="og:image" content="https://tumelophale.github.io/portfolio/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tumelo Junior Phale — Software Engineer &amp; QA" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%2307070d'/><text x='6' y='23' font-family='monospace' font-weight='700' font-size='18' fill='%2300d4ff'>t</text></svg>" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav
-      id="main-nav"
-      class="nav"
-      role="navigation"
-      aria-label="Main navigation"
-    >
+
+    <div class="noise"></div>
+
+    <div class="cursor" aria-hidden="true">
+      <div class="cursor-ring"></div>
+      <div class="cursor-dot"></div>
+    </div>
+
+    <nav class="nav" role="navigation" aria-label="Main navigation">
       <div class="nav-inner">
-        <a href="#hero" class="nav-logo" aria-label="Home"
-          >tjp<span class="sep">/</span>dev</a
-        >
+        <a href="#hero" class="nav-logo" aria-label="Home">tjp</a>
         <ul class="nav-links">
-          <li><a href="#stack" class="nav-link">stack</a></li>
-          <li><a href="#experience" class="nav-link">experience</a></li>
-          <li><a href="#about" class="nav-link">about</a></li>
-          <li><a href="#contact" class="nav-link">contact</a></li>
+          <li><a href="#experience" class="nav-link">Work</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="Tumelo_Junior_Phale_CV.pdf" class="nav-cta" download>CV</a></li>
         </ul>
+        <div class="nav-indicator" aria-hidden="true"></div>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
       </div>
     </nav>
 
-    <section class="hero" id="hero" role="region" aria-labelledby="hero-title">
-      <div class="hero-inner">
-        <p class="hero-status">
-          <span class="status-pip" aria-hidden="true"></span>
-          Junior Software Engineer &nbsp;&middot;&nbsp; Midrand, Johannesburg
-        </p>
-
-        <h1 class="hero-name" id="hero-title">
-          <span class="name-first">Tumelo</span>
-          <span class="name-middle">Junior</span>
-          <span class="name-last">Phale.</span>
-        </h1>
-
-        <p class="hero-copy">
-          Backend builder, bug hunter, refactor on principle.
-        </p>
-
-        <div class="hero-meta" role="list" aria-label="Technical snapshot">
-          <div class="meta-cell" role="listitem">
-            <div class="label meta-k">focus</div>
-            <div class="meta-v">Backend APIs</div>
-            <div class="meta-sub">
-              Business logic &nbsp;&middot;&nbsp; REST &nbsp;&middot;&nbsp; SQL
-            </div>
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-glow"></div>
+        <div class="hero-grain"></div>
+      </div>
+      <div class="hero-layout">
+        <div class="hero-main">
+          <div class="hero-badge">
+            <span class="badge-ring"></span>
+            Available
           </div>
-
-          <div class="meta-cell" role="listitem">
-            <div class="label meta-k">stack</div>
-            <div class="meta-v">ASP.NET Core</div>
-            <div class="meta-sub">
-              React &nbsp;&middot;&nbsp; Azure &nbsp;&middot;&nbsp; Docker
-            </div>
+          <h1 class="hero-title">
+            <span class="hero-pre">Tumelo</span>
+            <span class="hero-name">Junior Phale</span>
+          </h1>
+          <div class="hero-meta">
+            <span class="hero-tag">Software Engineer</span>
+            <span class="hero-tag-sep"></span>
+            <span class="hero-tag">QA Automation</span>
           </div>
-
-          <div class="meta-cell" role="listitem">
-            <div class="label meta-k">role</div>
-            <div class="meta-v">Junior Software Eng.</div>
-            <div class="meta-sub">Sage &nbsp;&middot;&nbsp; Oct 2025</div>
+          <p class="hero-summary">
+            I build backend systems that scale, ship frontends that work everywhere,
+            and automate quality into every release.
+          </p>
+          <div class="hero-actions">
+            <a href="#experience" class="btn btn-primary">
+              <span class="btn-text">See the work</span>
+              <span class="btn-arrow">&rarr;</span>
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <span class="btn-text">Get in touch</span>
+            </a>
           </div>
-
-          <div class="meta-cell" role="listitem">
-            <div class="label meta-k">experience</div>
-            <div class="meta-v">1 yr production</div>
-            <div class="meta-sub">BSc IT &nbsp;&middot;&nbsp; NWU</div>
+        </div>
+        <div class="hero-terminal" aria-hidden="true">
+          <div class="terminal-head">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></div>
+            <div class="terminal-line t-out"><span class="t-key">name</span>     Tumelo Phale</div>
+            <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">cat</span> <span class="t-flag">--stack</span></div>
+            <div class="terminal-line t-out"><span class="t-key">backend</span>  .NET / ASP.NET Core</div>
+            <div class="terminal-line t-out"><span class="t-key">frontend</span> React / TypeScript</div>
+            <div class="terminal-line t-out"><span class="t-key">database</span> SQL Server / PostgreSQL</div>
+            <div class="terminal-line t-out"><span class="t-key">qa</span>       Cypress / Manual</div>
+            <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">_</span></div>
           </div>
         </div>
       </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="scroll-dot"></span>
+        <span class="scroll-line"></span>
+      </div>
     </section>
 
-    <section
-      class="section"
-      id="stack"
-      role="region"
-      aria-labelledby="stack-title"
-    >
+    <section class="section" id="experience">
       <div class="sec-head">
-        <div class="sec-rule" aria-hidden="true"></div>
-        <div class="sec-title-wrap">
-          <span class="sec-num" aria-hidden="true">01</span>
-          <span class="sec-dot" aria-hidden="true">&middot;</span>
-          <h2 class="sec-title" id="stack-title">Tech Stack</h2>
-        </div>
-        <div class="sec-rule" aria-hidden="true"></div>
+        <span class="sec-number">01</span>
+        <h2 class="sec-title">Experience</h2>
+        <div class="sec-rule"></div>
       </div>
-
-      <div class="stack-grid reveal">
-        <div class="sc full">
-          <span class="sc-head label">Languages</span>
-          <div class="sc-tags" role="list">
-            <span class="tag tag-core" role="listitem">C#</span>
-            <span class="tag tag-core" role="listitem">TypeScript</span>
-            <span class="tag tag-core" role="listitem">JavaScript</span>
-            <span class="tag tag-core" role="listitem">Java</span>
-            <span class="tag tag-core" role="listitem">SQL</span>
-            <span class="tag tag-core" role="listitem">Python</span>
-            <span class="tag tag-core" role="listitem">HTML</span>
-            <span class="tag tag-core" role="listitem">CSS</span>
+      <div class="ledger">
+        <div class="ledger-item">
+          <div class="ledger-meta">
+            <span class="ledger-date">Oct 2025 — Present</span>
+            <span class="ledger-company">Sage</span>
+          </div>
+          <div class="ledger-content">
+            <div class="ledger-marker"></div>
+            <h3 class="ledger-role">Graduate Software Engineer</h3>
+            <p class="ledger-context">Full-stack engineering on production financial software. Backend APIs, React, SQL Server, and QA automation.</p>
+            <ul class="ledger-list">
+              <li>Built and maintained REST API endpoints in ASP.NET Core handling business-critical data operations</li>
+              <li>Developed responsive React components and UI features improving user workflows across the product</li>
+              <li>Planned and executed SQL Server database migrations with schema changes and deployment coordination</li>
+              <li>Established QA testing workflows using Cypress — regression, smoke, and UAT cycles</li>
+              <li>Authored test plans and bug reports, collaborating with developers to raise release quality</li>
+            </ul>
           </div>
         </div>
-
-        <div class="sc">
-          <span class="sc-head label">Backend</span>
-          <div class="sc-tags" role="list">
-            <span class="tag" role="listitem">ASP.NET Core</span>
-            <span class="tag" role="listitem">C# / .NET</span>
-            <span class="tag" role="listitem">REST APIs</span>
-            <span class="tag" role="listitem">Node.js</span>
-            <span class="tag" role="listitem">Java</span>
+        <div class="ledger-item">
+          <div class="ledger-meta">
+            <span class="ledger-date">2023 — 2024</span>
+            <span class="ledger-company">North-West University</span>
           </div>
-        </div>
-
-        <div class="sc">
-          <span class="sc-head label">Data</span>
-          <div class="sc-tags" role="list">
-            <span class="tag" role="listitem">SQL Server</span>
-            <span class="tag" role="listitem">PostgreSQL</span>
-            <span class="tag" role="listitem">Migrations</span>
-            <span class="tag" role="listitem">Schema Design</span>
-          </div>
-        </div>
-
-        <div class="sc">
-          <span class="sc-head label">Frontend</span>
-          <div class="sc-tags" role="list">
-            <span class="tag" role="listitem">React</span>
-            <span class="tag" role="listitem">Angular</span>
-            <span class="tag" role="listitem">CSS Modules</span>
-            <span class="tag" role="listitem">Responsive Design</span>
-          </div>
-        </div>
-
-        <div class="sc">
-          <span class="sc-head label">Cloud &amp; Infra</span>
-          <div class="sc-tags" role="list">
-            <span class="tag" role="listitem">Azure</span>
-            <span class="tag" role="listitem">Docker</span>
-            <span class="tag" role="listitem">CI/CD</span>
-          </div>
-        </div>
-
-        <div class="sc">
-          <span class="sc-head label">Automation</span>
-          <div class="sc-tags" role="list">
-            <span class="tag tag-ai" role="listitem">UiPath RPA</span>
-            <span class="tag tag-ai" role="listitem">UAT automation</span>
-            <span class="tag tag-ai" role="listitem">GitHub Copilot</span>
-            <span class="tag tag-ai" role="listitem">AI-assisted dev</span>
-          </div>
-        </div>
-
-        <div class="sc">
-          <span class="sc-head label">Version Control</span>
-          <div class="sc-tags" role="list">
-            <span class="tag" role="listitem">Git</span>
-            <span class="tag" role="listitem">GitHub</span>
-            <span class="tag" role="listitem">Code review</span>
-          </div>
-        </div>
-
-        <div class="sc full">
-          <span class="sc-head label">Practices</span>
-          <div class="sc-tags" role="list">
-            <span class="tag" role="listitem">Bug diagnosis</span>
-            <span class="tag" role="listitem">Unit testing</span>
-            <span class="tag" role="listitem">Agile / Scrum</span>
-            <span class="tag" role="listitem">Team leadership</span>
-            <span class="tag" role="listitem">LLM workflows</span>
+          <div class="ledger-content">
+            <div class="ledger-marker"></div>
+            <h3 class="ledger-role">Project Team Leader</h3>
+            <p class="ledger-context">Led student teams delivering database and web application projects.</p>
+            <ul class="ledger-list">
+              <li>Led cross-functional teams of 4–6, consistently delivering ahead of schedule</li>
+              <li>Optimised database performance through query tuning, indexing, and schema refactoring</li>
+              <li>Drove Agile delivery across sprint planning, stand-ups, and retrospectives</li>
+              <li>Achieved distinction in Decision Support Systems and Advanced Application Development</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section
-      class="section"
-      id="experience"
-      role="region"
-      aria-labelledby="exp-title"
-    >
+    <section class="section" id="skills">
       <div class="sec-head">
-        <div class="sec-rule" aria-hidden="true"></div>
-        <div class="sec-title-wrap">
-          <span class="sec-num" aria-hidden="true">02</span>
-          <span class="sec-dot" aria-hidden="true">&middot;</span>
-          <h2 class="sec-title" id="exp-title">Experience</h2>
-        </div>
-        <div class="sec-rule" aria-hidden="true"></div>
+        <span class="sec-number">02</span>
+        <h2 class="sec-title">Skills</h2>
+        <div class="sec-rule"></div>
       </div>
-
-      <div class="experience-grid reveal">
-        <div class="exp-item">
-          <div class="exp-header">
-            <h3 class="exp-title">Graduate Software Engineer</h3>
-            <span class="exp-duration">Oct 2025 &middot; Present</span>
+      <div class="skills-cluster">
+        <div class="cluster-group">
+          <span class="cluster-label">Languages</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-glow>C#</span>
+            <span class="cluster-chip" data-glow>TypeScript</span>
+            <span class="cluster-chip" data-glow>JavaScript</span>
+            <span class="cluster-chip" data-glow>Java</span>
+            <span class="cluster-chip" data-glow>SQL</span>
+            <span class="cluster-chip" data-glow>Python</span>
+            <span class="cluster-chip" data-glow>HTML/CSS</span>
           </div>
-          <p class="exp-company">Sage</p>
-          <ul class="exp-list">
-            <li>
-              Built and extended backend API endpoints using ASP.NET Core
-              covering business logic, validation and data flow
-            </li>
-            <li>
-              Delivered React UI improvements including responsive components
-              and user-facing feature work
-            </li>
-            <li>
-              Managed database migrations across SQL Server covering schema
-              changes, integrity checks and deployment coordination
-            </li>
-          </ul>
         </div>
-
-        <div class="exp-item">
-          <div class="exp-header">
-            <h3 class="exp-title">Project Team Leader</h3>
-            <span class="exp-duration">2023 &middot; 2024</span>
+        <div class="cluster-group">
+          <span class="cluster-label">Backend</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-glow>ASP.NET Core</span>
+            <span class="cluster-chip" data-glow>REST APIs</span>
+            <span class="cluster-chip" data-glow>C# / .NET</span>
+            <span class="cluster-chip" data-glow>Node.js</span>
+            <span class="cluster-chip" data-glow>Java</span>
           </div>
-          <p class="exp-company">North-West University</p>
-          <ul class="exp-list">
-            <li>
-              Led a team of 4 to 6 on database and web application projects,
-              delivering ahead of schedule
-            </li>
-            <li>
-              Managed database optimisation work including query tuning and
-              schema improvements
-            </li>
-            <li>
-              Coordinated cross-functional delivery using Agile methodologies
-            </li>
-            <li>
-              Achieved distinction in Decision Support Systems and Apps &amp;
-              Advanced UI during this period
-            </li>
-          </ul>
+        </div>
+        <div class="cluster-group">
+          <span class="cluster-label">Frontend</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-glow>React</span>
+            <span class="cluster-chip" data-glow>Angular</span>
+            <span class="cluster-chip" data-glow>TypeScript</span>
+            <span class="cluster-chip" data-glow>Responsive Design</span>
+          </div>
+        </div>
+        <div class="cluster-group">
+          <span class="cluster-label">Database</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-glow>SQL Server</span>
+            <span class="cluster-chip" data-glow>PostgreSQL</span>
+            <span class="cluster-chip" data-glow>Migrations</span>
+            <span class="cluster-chip" data-glow>Schema Design</span>
+            <span class="cluster-chip" data-glow>Query Tuning</span>
+          </div>
+        </div>
+        <div class="cluster-group">
+          <span class="cluster-label">QA &amp; Testing</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-accent>Manual Testing</span>
+            <span class="cluster-chip" data-accent>Smoke Testing</span>
+            <span class="cluster-chip" data-accent>Cypress</span>
+            <span class="cluster-chip" data-accent>Automated Testing</span>
+            <span class="cluster-chip" data-accent>UAT</span>
+            <span class="cluster-chip" data-accent>Regression</span>
+            <span class="cluster-chip" data-accent>Test Plans</span>
+          </div>
+        </div>
+        <div class="cluster-group">
+          <span class="cluster-label">DevOps</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-glow>Azure</span>
+            <span class="cluster-chip" data-glow>Docker</span>
+            <span class="cluster-chip" data-glow>CI/CD</span>
+            <span class="cluster-chip" data-glow>Git</span>
+          </div>
+        </div>
+        <div class="cluster-group">
+          <span class="cluster-label">Automation</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-glow>UiPath RPA</span>
+            <span class="cluster-chip" data-glow>GitHub Copilot</span>
+            <span class="cluster-chip" data-glow>LLM Workflows</span>
+          </div>
+        </div>
+        <div class="cluster-group">
+          <span class="cluster-label">Practices</span>
+          <div class="cluster-items">
+            <span class="cluster-chip" data-glow>Agile / Scrum</span>
+            <span class="cluster-chip" data-glow>Bug Diagnosis</span>
+            <span class="cluster-chip" data-glow>Refactoring</span>
+            <span class="cluster-chip" data-glow>Unit Testing</span>
+            <span class="cluster-chip" data-glow>Code Review</span>
+            <span class="cluster-chip" data-glow>Team Leadership</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section
-      class="section"
-      id="about"
-      role="region"
-      aria-labelledby="about-title"
-    >
+    <section class="section" id="about">
       <div class="sec-head">
-        <div class="sec-rule" aria-hidden="true"></div>
-        <div class="sec-title-wrap">
-          <span class="sec-num" aria-hidden="true">03</span>
-          <span class="sec-dot" aria-hidden="true">&middot;</span>
-          <h2 class="sec-title" id="about-title">About</h2>
-        </div>
-        <div class="sec-rule" aria-hidden="true"></div>
+        <span class="sec-number">03</span>
+        <h2 class="sec-title">About</h2>
+        <div class="sec-rule"></div>
       </div>
-
-      <div class="about-grid reveal">
-        <div class="about-col">
-          <span class="label col-head">Profile</span>
-          <article class="about-body">
-            <p>
-              I am early in my career but I take it seriously. I graduated with
-              a BSc in Information Technology from North-West University and
-              have been shipping production code since day one.
-            </p>
-            <p>
-              I pick things up fast and do not let gaps stay gaps. When I touch
-              a codebase, I try to leave it
-              <strong>cleaner than I found it.</strong>
-            </p>
-            <p>
-              I have <strong>diagnosed critical bugs</strong> under pressure,
-              <strong>refactored legacy code</strong> to cut technical debt, and
-              extended features without breaking existing functionality.
-            </p>
-            <p>
-              Still growing. But I am the kind of junior who shows up ready to
-              own the work.
-            </p>
-          </article>
+      <div class="about-layout">
+        <div class="about-quote">
+          <blockquote>
+            <span class="quote-mark">&ldquo;</span>
+            I leave every codebase&nbsp;cleaner than I&nbsp;found&nbsp;it.
+          </blockquote>
+          <div class="quote-author">
+            <span class="quote-name">Tumelo Phale</span>
+            <span class="quote-role">Graduate Software Engineer</span>
+          </div>
         </div>
-
-        <div class="about-col">
-          <span class="label col-head">Details</span>
-          <dl class="facts">
-            <div class="fact">
-              <dt class="label fact-k">Degree</dt>
-              <dd class="fact-v">BSc Information Technology</dd>
+        <div class="about-content">
+          <p>
+            I&rsquo;m a Graduate Software Engineer with a BSc in Information Technology
+            from North-West University. I build backend APIs, ship frontend features,
+            and automate testing to make sure everything works before it reaches users.
+          </p>
+          <p>
+            I bring a <strong>QA mindset</strong> to everything I build. I test my own work,
+            I test my team&rsquo;s work, and I push for automation that catches regressions
+            before they ship. I&rsquo;ve diagnosed critical bugs under pressure, cleaned up
+            technical debt on legacy systems, and delivered features without breaking things.
+          </p>
+          <div class="about-stats">
+            <div class="about-stat">
+              <span class="stat-value">BSc IT</span>
+              <span class="stat-label">North-West University</span>
             </div>
-            <div class="fact">
-              <dt class="label fact-k">University</dt>
-              <dd class="fact-v">North-West University</dd>
+            <div class="about-stat">
+              <span class="stat-value">1+ yr</span>
+              <span class="stat-label">Production Experience</span>
             </div>
-            <div class="fact">
-              <dt class="label fact-k">Location</dt>
-              <dd class="fact-v">Midrand, Johannesburg</dd>
+            <div class="about-stat">
+              <span class="stat-value">Full Stack</span>
+              <span class="stat-label">API &middot; UI &middot; DB &middot; QA</span>
             </div>
-            <div class="fact">
-              <dt class="label fact-k">Strengths</dt>
-              <dd class="fact-v">
-                Refactoring, Bug diagnosis, API work, Migrations
-              </dd>
-            </div>
-            <div class="fact">
-              <dt class="label fact-k">Approach</dt>
-              <dd class="fact-v">Systematic. Consolidate. Unblock the team.</dd>
-            </div>
-            <div class="fact">
-              <dt class="label fact-k">AI tooling</dt>
-              <dd class="fact-v">
-                GitHub Copilot, LLM workflows, prompt engineering
-              </dd>
-            </div>
-          </dl>
+          </div>
         </div>
       </div>
     </section>
 
-    <section
-      class="section"
-      id="contact"
-      role="region"
-      aria-labelledby="contact-title"
-    >
+    <section class="section" id="contact">
       <div class="sec-head">
-        <div class="sec-rule" aria-hidden="true"></div>
-        <div class="sec-title-wrap">
-          <span class="sec-num" aria-hidden="true">04</span>
-          <span class="sec-dot" aria-hidden="true">&middot;</span>
-          <h2 class="sec-title" id="contact-title">Contact</h2>
-        </div>
-        <div class="sec-rule" aria-hidden="true"></div>
+        <span class="sec-number">04</span>
+        <h2 class="sec-title">Contact</h2>
+        <div class="sec-rule"></div>
       </div>
-
-      <div class="contact-grid reveal">
-        <a
-          href="mailto:tumelojuniorphale@gmail.com"
-          class="c-cell"
-          aria-label="Send email"
-        >
-          <span class="c-platform">Email</span>
-          <span class="c-action">Send a message</span>
-          <span class="c-arrow" aria-hidden="true">&#8599;</span>
-        </a>
-
-        <a
-          href="https://github.com/TumeloPhale"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="c-cell"
-          aria-label="GitHub profile"
-        >
-          <span class="c-platform">GitHub</span>
-          <span class="c-action">View my code</span>
-          <span class="c-arrow" aria-hidden="true">&#8599;</span>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/tumelo-junior-phale-a6579527b/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="c-cell"
-          aria-label="LinkedIn profile"
-        >
-          <span class="c-platform">LinkedIn</span>
-          <span class="c-action">Connect with me</span>
-          <span class="c-arrow" aria-hidden="true">&#8599;</span>
-        </a>
-
-        <a
-          href="Tumelo_Junior_Phale_CV.pdf"
-          class="c-cell"
-          aria-label="Download CV"
-          download
-        >
-          <span class="c-platform">CV</span>
-          <span class="c-action">Download PDF</span>
-          <span class="c-arrow" aria-hidden="true">&#8599;</span>
-        </a>
+      <div class="contact-panel">
+        <div class="contact-text">
+          <p class="contact-headline">Let&rsquo;s build something.</p>
+          <p class="contact-sub">Available for software engineering and QA roles&nbsp;&mdash;&nbsp;remote or hybrid.</p>
+          <a href="mailto:tumelojuniorphale@gmail.com" class="contact-email">
+            <span class="email-label">Email</span>
+            <span class="email-address">tumelojuniorphale@gmail.com</span>
+            <span class="email-arrow">&rarr;</span>
+          </a>
+          <div class="contact-links">
+            <a href="https://github.com/TumeloPhale" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/tumelo-junior-phale-a6579527b/" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="Tumelo_Junior_Phale_CV.pdf" download class="contact-link contact-link-cv">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+          </div>
+        </div>
+        <div class="contact-visual" aria-hidden="true">
+          <div class="contact-glyph">tjp</div>
+          <div class="contact-globes">
+            <span class="globe" style="--i:0"></span>
+            <span class="globe" style="--i:1"></span>
+            <span class="globe" style="--i:2"></span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer class="footer" role="contentinfo">
-      <div class="foot-inner">
-        <p class="foot-text">
-          Tumelo Junior Phale &nbsp;&middot;&nbsp; Midrand, Johannesburg
-          &nbsp;&middot;&nbsp; 2026
-        </p>
-        <p class="foot-text">hand-coded &nbsp;&middot;&nbsp; no templates</p>
+    <footer class="footer">
+      <div class="footer-inner">
+        <p class="footer-copy">&copy; 2026 Tumelo Junior Phale</p>
       </div>
     </footer>
 
-    <script
-      data-cfasync="false"
-      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-    ></script>
     <script>
-      const io = new IntersectionObserver(
+      const scrollElements = document.querySelectorAll(
+        ".section, .ledger-item, .about-layout, .contact-panel, .skills-cluster, .hero-terminal, .hero-meta, .hero-summary, .hero-actions"
+      );
+
+      const scrollObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((e) => {
             if (e.isIntersecting) {
-              e.target.classList.add("visible");
-              io.unobserve(e.target);
+              e.target.dataset.visible = "true";
+              scrollObserver.unobserve(e.target);
             }
           });
         },
-        { threshold: 0.08, rootMargin: "0px 0px -32px 0px" },
+        { threshold: 0.06, rootMargin: "0px 0px -40px 0px" }
       );
 
-      document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+      scrollElements.forEach((el) => scrollObserver.observe(el));
 
       const sections = document.querySelectorAll("section[id]");
       const navLinks = document.querySelectorAll(".nav-link");
+      const navIndicator = document.querySelector(".nav-indicator");
 
-      const nio = new IntersectionObserver(
+      function updateIndicator() {
+        const active = document.querySelector(".nav-link.active");
+        if (active && navIndicator) {
+          const rect = active.getBoundingClientRect();
+          const navRect = active.closest(".nav-inner").getBoundingClientRect();
+          navIndicator.style.width = rect.width + "px";
+          navIndicator.style.transform = "translateX(" + (rect.left - navRect.left) + "px)";
+        }
+      }
+
+      const navObserver = new IntersectionObserver(
         (entries) => {
+          let activeId = null;
           entries.forEach((e) => {
             if (e.isIntersecting) {
-              navLinks.forEach((l) => l.classList.remove("active"));
-              const a = document.querySelector(
-                '.nav-link[href="#' + e.target.id + '"]',
-              );
-
-              if (a) a.classList.add("active");
+              activeId = e.target.id;
             }
           });
+          navLinks.forEach((l) => l.classList.remove("active"));
+          if (activeId && activeId !== "hero") {
+            const link = document.querySelector('.nav-link[href="#' + activeId + '"]');
+            if (link) link.classList.add("active");
+          }
+          updateIndicator();
         },
-        { rootMargin: "-40% 0px -55% 0px" },
+        { threshold: 0, rootMargin: "-30% 0px -50% 0px" }
       );
 
-      sections.forEach((s) => nio.observe(s));
+      sections.forEach((s) => navObserver.observe(s));
+      window.addEventListener("resize", updateIndicator);
+      window.addEventListener("load", updateIndicator);
+
+      sections.forEach((s) => navObserver.observe(s));
+
+      const toggle = document.querySelector(".nav-toggle");
+      const navList = document.querySelector(".nav-links");
+
+      if (toggle) {
+        toggle.addEventListener("click", () => {
+          const open = toggle.getAttribute("aria-expanded") === "true";
+          toggle.setAttribute("aria-expanded", !open);
+          navList.classList.toggle("open");
+          document.body.classList.toggle("no-scroll");
+        });
+        navList.querySelectorAll("a").forEach((a) => {
+          a.addEventListener("click", () => {
+            toggle.setAttribute("aria-expanded", "false");
+            navList.classList.remove("open");
+            document.body.classList.remove("no-scroll");
+          });
+        });
+      }
+
+      const cursor = document.querySelector(".cursor");
+      if (cursor && window.matchMedia("(pointer: fine)").matches) {
+        const ring = cursor.querySelector(".cursor-ring");
+        const dot = cursor.querySelector(".cursor-dot");
+        let mx = 0, my = 0, rx = 0, ry = 0;
+
+        document.addEventListener("mousemove", (e) => {
+          mx = e.clientX;
+          my = e.clientY;
+          dot.style.transform = "translate(" + mx + "px, " + my + "px)";
+        });
+
+        function ringAnim() {
+          rx += (mx - rx) * 0.1;
+          ry += (my - ry) * 0.1;
+          ring.style.transform = "translate(" + rx + "px, " + ry + "px)";
+          requestAnimationFrame(ringAnim);
+        }
+        ringAnim();
+
+        document.querySelectorAll("a, button, .cluster-chip, .ledger-item, .contact-link, .btn").forEach((el) => {
+          el.addEventListener("mouseenter", () => cursor.classList.add("active"));
+          el.addEventListener("mouseleave", () => cursor.classList.remove("active"));
+        });
+      }
+
     </script>
   </body>
 </html>
